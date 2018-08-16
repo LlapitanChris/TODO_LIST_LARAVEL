@@ -1,0 +1,21 @@
+
+Put this on hello.blade.php
+
+{{-- hello <?php echo $name; ?>  --}}
+	<!--the variable $name came from the web.php  -->
+
+	<!-- OR you can use below-->
+
+ {{-- <h2>Hello {{ $name }}</h2> --}}
+
+
+ <!-- OR you can use below using if statement -->
+
+ {{-- @if(isset($name))
+ 	<h2>hello {{ $name }}</h2>
+
+ @else
+ <h2>Hello Panget</h2>
+ @endif
+
+ --}}
